@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Tabla</title>
+	<link rel="stylesheet" type="text/css" href="ProGrettel.css">
+</head>
+<body>
+	<div id="main-container">
+		<p>Establecimiento de Criterios </p>
+		<form action="ProGrettelAñadir.html" method="post">
+		<table>
+			<thead>
+				<tr>
+					<th>Criterio</th><th>Tipo</th><th>Ponderación</th>
+				</tr>
+			</thead>
+				<tr>
+					<td>Duracion (en meses)</td><td>Cuantitativo</td><td><input type="text" name="Ponderacion1" /></td>
+				</tr>
+				<tr>
+					<td>Valor Presente Neto</td><td>Cuantitativo</td><td><input type="text" name="Ponderacion2" /></td>
+				</tr>
+				<tr>
+					<td>Periodo de Recuperacion de la Inversion (en meses)</td><td>Cuantitativo</td><td><input type="text" name="Ponderacion3" /></td>
+				</tr>
+				<tr>
+					<td>Riesgo</td><td>Cualitativo</td><td><input type="text" name="Ponderacion4" /></td>
+				</tr>
+				<tr>
+					<td>Generación de Tecnología Propia</td><td>Cualitativo</td><td><input type="text" name="Ponderacion5" /></td>
+				</tr>
+		</table>
+		<p><input type="submit" value="Añadir Criterio" /></p>
+		</form>
+	</div>
+</body>
+</html>
